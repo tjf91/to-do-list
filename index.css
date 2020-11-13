@@ -33,12 +33,14 @@ ul {
   list-style-image: url("./img/square-regular.svg");
   font-size: 24px;
   width: 100%;
+  cursor: pointer;
 }
 
 li[aria-checked="true"] {
   color: gray;
   text-decoration: line-through;
   list-style-image: url("./img/check-square-regular.svg");
+  
 }
 
 #completed-message {
